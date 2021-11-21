@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  #index_sect4 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 319px) {
+  #index_sect41 {
+    display: none;
+  }
+}

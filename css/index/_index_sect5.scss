@@ -1,0 +1,24 @@
+#index_sect5 {
+  background: $light-grey;
+  display: flex;
+  color: #000;
+  border-radius: 4rem 4rem 0rem 0rem;
+  #contact_div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-height: 378px;
+    padding: 2rem;
+    position: relative;
+    color: $primary-color;
+    i {
+      margin-top: 5rem;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+}

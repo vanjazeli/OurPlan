@@ -1,0 +1,32 @@
+#index_sect2 {
+  display: flex;
+  flex: 1;
+  #index_sect21 {
+    width: 100%;
+    background: url("/svg/Index_sect21.svg") no-repeat center center/cover;
+    background-size: 200%;
+    background-color: $light-grey;
+    border-radius: 0 0 0 4rem;
+  }
+  #index_sect22 {
+    width: 100%;
+    padding: 5rem;
+    padding-top: 0;
+    background: $light-grey;
+    color: #000;
+    position: relative;
+    color: $primary-color;
+    img {
+      position: absolute;
+      bottom: -1px;
+      right: -1px;
+      height: 140px;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}

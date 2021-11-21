@@ -1,0 +1,12 @@
+@media (max-width: 1100px) {
+  #index_sect3 {
+    #index_card_alignment {
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  #index_sect3 {
+    border-radius: 0;
+  }
+}

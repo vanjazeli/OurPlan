@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./utilities/colors";
+@import "./utilities/utilities";
+@import "./utilities/hamburger_popup";
+
+// Sections
+
+// Index
+@import "./index/navbar";
+@import "./index/index_sect1";
+@import "./index/index_sect2";
+@import "./index/index_sect3";
+@import "./index/index_sect4";
+@import "./index/index_sect5";
+@import "./index/index_sect6";
+@import "./utilities/footer";
+
+// Who Are We
+@import "./whoarewe/whoarewe_sect1";
+@import "./whoarewe/whoarewe_sect2";
+@import "./whoarewe/whoarewe_sect3";
+
+// Donations
+@import "./donations/donations_sect1";
+@import "./donations/donations_sect2";
+
+// Media Queries
+
+@import "./index/mq_navbar";
+@import "./index/mq_index_sect2";
+@import "./index/mq_index_sect3";
+@import "./index/mq_index_sect4";
+@import "./index/mq_index_sect5";
+@import "./whoarewe/mq_whoarewe_sect1";
+@import "./whoarewe/mq_whoarewe_sect3";
+@import "./utilities/mq_footer";
+
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background: $primary-color;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  overflow-x: hidden;
+  opacity: 0;
+  transition: 250ms ease-in-out;
+}

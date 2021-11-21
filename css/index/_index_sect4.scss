@@ -1,0 +1,29 @@
+#index_sect4 {
+  display: flex;
+  flex: 1;
+  #index_sect41 {
+    width: 100%;
+    background: url("/svg/index_sect41.svg") no-repeat center center/cover;
+    background-size: 200%;
+  }
+  #index_sect42 {
+    width: 100%;
+    padding: 5rem;
+    padding-top: 0rem;
+    padding-bottom: 8rem;
+    background: $primary-color;
+    position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+      top: -1px;
+      left: 0;
+    }
+    h2 {
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}

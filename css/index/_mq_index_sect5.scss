@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  #index_sect5 {
+    padding: 2rem;
+    flex-direction: column;
+    #contact_div {
+      min-height: 1rem;
+      i {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

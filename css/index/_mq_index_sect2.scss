@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  #index_sect2 {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 414px) {
+  #index_sect2 {
+    #index_sect22 {
+      img {
+        height: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 319px) {
+  #index_sect21 {
+    display: none;
+  }
+}

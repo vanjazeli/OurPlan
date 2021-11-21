@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+  #whoarewe_sect3 {
+    #whoarewe_sect31 {
+      flex-direction: column;
+      #whoarewe_sect311 {
+        width: 100%;
+        height: 30rem;
+      }
+      #whoarewe_sect312 {
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+    #whoarewe_sect32 {
+      flex-direction: column-reverse;
+      #whoarewe_sect321 {
+        width: 100%;
+        padding-right: 2rem;
+      }
+      #whoarewe_sect322 {
+        width: 100%;
+        height: 30rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 413px) {
+  #whoarewe_sect3 {
+    #whoarewe_sect31 {
+      #whoarewe_sect311 {
+        height: 20rem;
+      }
+    }
+    #whoarewe_sect32 {
+      #whoarewe_sect322 {
+        height: 20rem;
+      }
+    }
+  }
+}

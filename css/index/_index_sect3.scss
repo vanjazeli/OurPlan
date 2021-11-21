@@ -1,0 +1,33 @@
+#index_sect3 {
+  background: $primary-color;
+  padding-bottom: 3rem;
+  h2 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: $light-grey;
+  }
+  #index_card_alignment {
+    display: flex;
+  }
+  .index_sect31 {
+    color: $primary-color;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    max-width: 25%;
+    min-width: 275px;
+    padding: 3rem;
+    text-align: center;
+    min-height: 378px;
+    i {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 5rem;
+    }
+    h3 {
+      margin-bottom: 0.7rem;
+    }
+  }
+}
