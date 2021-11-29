@@ -115,6 +115,7 @@ h2 {
   border: 1px solid #ccc;
   background: #fff;
   color: #000;
+  border-radius: 2rem;
   -webkit-box-shadow: 0 1.4px 2.2px rgba(0, 0, 0, 0.036), 0 3.3px 5.3px rgba(0, 0, 0, 0.049), 0 6.3px 10px rgba(0, 0, 0, 0.054), 0 11.2px 17.9px rgba(0, 0, 0, 0.055), 0 20.9px 33.4px rgba(0, 0, 0, 0.057), 0 50px 80px rgba(0, 0, 0, 0.07);
           box-shadow: 0 1.4px 2.2px rgba(0, 0, 0, 0.036), 0 3.3px 5.3px rgba(0, 0, 0, 0.049), 0 6.3px 10px rgba(0, 0, 0, 0.054), 0 11.2px 17.9px rgba(0, 0, 0, 0.055), 0 20.9px 33.4px rgba(0, 0, 0, 0.057), 0 50px 80px rgba(0, 0, 0, 0.07);
 }
